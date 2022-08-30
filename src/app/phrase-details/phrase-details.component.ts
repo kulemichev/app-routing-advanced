@@ -22,7 +22,7 @@ export class PhraseDetailsComponent implements OnInit {
 
 if (isNaN(id)) return
 
-      this.phrasesService.getPhrase(id).then(result => this.phrase = result)
+      this.phrasesService.getPhrase(id).then(result => this.phrase = result);
       });
   }
 

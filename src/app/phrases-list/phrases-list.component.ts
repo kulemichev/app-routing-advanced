@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { PHRASES } from '../shared/mock-data';
 import { Phrase } from '../shared/phrase';
 import { PhrasesService } from '../shared/phrases.service';
 
